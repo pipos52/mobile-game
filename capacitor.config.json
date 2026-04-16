@@ -1,0 +1,8 @@
+{
+  "appId": "com.mobile.game",
+  "appName": "MobileGame",
+  "webDir": "public",
+  "server": {
+    "androidScheme": "https"
+  }
+}

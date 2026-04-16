@@ -1,0 +1,28 @@
+{
+  "name": "mobile-game",
+  "version": "1.0.0",
+  "description": "Mobile game project",
+  "scripts": {
+    "dev": "npx serve public -p 3000",
+    "build:android": "npx cap add android && npx cap sync android",
+    "build:apk": "cd android && ./gradlew assembleRelease",
+    "build:apk-debug": "cd android && ./gradlew assembleDebug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://pipos52:@github.com/pipos52/mobile-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pipos52/mobile-game/issues"
+  },
+  "homepage": "https://github.com/pipos52/mobile-game#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1"
+  }
+}
